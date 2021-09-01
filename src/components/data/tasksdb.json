@@ -1,0 +1,36 @@
+ [
+    {
+        "id": 1,
+        "text": "Comb Cat",
+        "day": "Jan 5th at 12:12pm",
+        "reminder": "true"
+    },
+    {
+        "id": 2,
+        "text": "Cat Call",
+        "day": "Feb 5th at 14:02pm",
+        "reminder": "true"
+    },
+    {
+        "id": 3,
+        "text": "Call Dad",
+        "day": "Feb 15th at 15:42pm",
+        "reminder": "true"
+    },
+    {
+        "id": 4,
+        "text": "Dad Jokes",
+        "day": "Feb 25th at 19:02pm",
+        "reminder": "true"
+    },
+    {
+        "id": 5,
+        "text": "Jokes on you",
+        "day": "May 12th at 12:11pm",
+        "reminder": "false"
+    }
+    
+]
+
+
+
