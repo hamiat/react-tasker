@@ -2,17 +2,12 @@ import Button from "./Button"
 //for more robust code you can use propTypes (catch errors)
 import PropTypes from 'prop-types'
 
-const Header = ({title}) => {
-   
-    const handleClick = () => {
-        console.log('hey')
-    }
-
+const Header = ({ title, onAdd, showAdd }) => {
 
     return ( 
         <header className="header">
             <h1>{title}</h1>
-           <Button color='pink' text='Add' onClick={handleClick}/>
+           <Button color={showAdd ? 'red' : 'green'} text={showAdd ? 'Close' : 'Add'} onClick={onAdd}/>
         </header>
      );
 }
